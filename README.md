@@ -71,8 +71,8 @@ Agent Builder · Arize Phoenix · FastAPI ·
 Redis · React · Python 3.11
 
 ## Team
-**Vardhan Jallu**  
-**Swetha Jallu** 
+**Vardhan Jalluri**  
+**Swetha Jalluri** 
 github.com/jallurivardhan/sanket
 
 ---
