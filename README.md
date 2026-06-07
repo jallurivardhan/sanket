@@ -71,7 +71,8 @@ Agent Builder · Arize Phoenix · FastAPI ·
 Redis · React · Python 3.11
 
 ## Team
-**Vardhan Jallu** — Senior AI Engineer  
+**Vardhan Jallu**  
+**Swetha Jallu** 
 github.com/jallurivardhan/sanket
 
 ---
