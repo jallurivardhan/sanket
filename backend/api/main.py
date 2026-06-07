@@ -69,7 +69,12 @@ ws_manager = ConnectionManager()
 # --- LIFESPAN LIFECYCLE ---
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # STARTUP: Connect to Redis
+    # STARTUP: Arize Phoenix setup
+    from backend.core.observability import setup_phoenix
+    phoenix_enabled = setup_phoenix()
+    logger.info(f"Arize Phoenix: {'enabled' if phoenix_enabled else 'disabled'}")
+
+    # Connect to Redis
     try:
         await router.connect()
     except Exception as e:
