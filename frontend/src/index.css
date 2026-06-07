@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #09090B;
+  --bg2: #111113;
+  --bg3: #18181B;
+  --border: rgba(255,255,255,0.08);
+  --border2: rgba(255,255,255,0.14);
+  --text: #FAFAFA;
+  --text2: #A1A1AA;
+  --text3: #71717A;
+  --blue: #3B82F6;
+  --green: #22C55E;
+  --yellow: #EAB308;
+  --red: #EF4444;
+  --purple: #8B5CF6;
+  --font: 'DM Mono', 'Courier New', monospace;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  min-height: 100vh;
+}
